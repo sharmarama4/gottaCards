@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gottaCards" />
+        <module name="gottaCard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gottaCards" target="17" />
+      <module name="gottaCard" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
