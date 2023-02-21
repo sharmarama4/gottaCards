@@ -36,7 +36,7 @@ public class PostCard {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (o == null ) return false;
         PostCard postCards = (PostCard) o;
         return Objects.equals(countryName, postCards.countryName) && Objects.equals(continent, postCards.continent);
     }

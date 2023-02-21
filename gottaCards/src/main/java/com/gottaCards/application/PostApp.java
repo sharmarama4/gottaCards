@@ -92,8 +92,8 @@ public class PostApp {
         System.out.println("After changing my friends new list");
         postCard.addAll(yourDup);
         postCard.forEach(e -> System.out.println(e));
-
-    System.out.println("Is there duplicates from you in your friends newList = " + postCard.containsAll(postCard));
+        System.out.println("-----");
+      System.out.println("After changing has your friend same index of list= " + postCard.containsAll(yourFriendsPostCardList));
         System.out.println();
 
         List<PostCard> friendsDup = yourFriendsPostCardList.stream().filter(entry
@@ -103,7 +103,8 @@ public class PostApp {
         System.out.println("After changing prints my newList");
         post.addAll(friendsDup);
         post.forEach(e -> System.out.println(e));
-        System.out.println("Is there duplicates from your friends in your newList = " + post.containsAll(post));
+        System.out.println("-----");
+        System.out.println("After changing do you have same index of list= " + post.containsAll(yourPostCardList));
        /* Opdracht 2 :
         Je beslist toch je systeem aan te passen en wilt al je kaarten sorteren per land. Gebruik hiervoor
         een Comparator!

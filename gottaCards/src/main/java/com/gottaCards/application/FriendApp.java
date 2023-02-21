@@ -21,16 +21,8 @@ public class FriendApp {
         Uiteraard heb je hier ook een systeem voor. Je wilt hier dit keer niet te veel code voor gebruiken, het gaat toch maar om kaarten die je niet meer gaat verzamelen.
                 Maak een ProrityQueue die ‘sortedFriends’ heet aan die aan de hand van lambdas eerst
         prioriteit geeft aan je familieleden, dan aan je beste vriend en dan pas aan de mensen die je
-        het langste kent. Vul hem dan aan met het volgende:
+        het langste kent. Vul hem dan aan met het volgende:*/
 
-        sortedFriends.offer(bobby);
-        sortedFriends.offer(melissa);
-        sortedFriends.offer(darla);
-        sortedFriends.offer(bert);
-        sortedFriends.offer(grandma);
-        sortedFriends.offer(fester);
-        sortedFriends.offer(anna);
-*/
 
         Queue<Friend> sortedFriends=new PriorityQueue<>();
         sortedFriends.offer(bobby);
